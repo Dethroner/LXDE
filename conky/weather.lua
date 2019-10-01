@@ -123,7 +123,7 @@ text = conky_parse('${weather http://tgftp.nws.noaa.gov/data/observations/metar/
 
 -- иконки
 -- создаём имидж изображения
-	image_bg = cairo_image_surface_create_from_png ("/home/dethroner/60x60/" .. image .. ".png")
+	image_bg = cairo_image_surface_create_from_png ("/etc/conky/60x60/" .. image .. ".png")
 
 -- забираем данные о ширине и высоте изображения из образа
 	w1 = cairo_image_surface_get_width (image_bg)
