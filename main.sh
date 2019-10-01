@@ -22,11 +22,14 @@ set -x
 
 echo "Start install..."
 ### Main
-$pwd/ssh-server.sh
-$pwd/install_lxde_minimal.sh
-/bin/bash $pwd/install_soft.sh
+"$pwd/ssh-server.sh"
+"$pwd/install_lxde_minimal.sh"
+"$pwd/install_soft.sh"
+"$pwd/conky/conky.sh"
 
 set +x
 
-### Conky
-/bin/bash $pwd/conky/conky.sh
+apt -y autoremove && apt -y autoclean
+
+/etc/init.d/lightdm start
+

@@ -19,8 +19,6 @@ sed -ie '
 /\/IconThemeName*=/ s|=.*$|=nuoveXT2|
 ' /home/$username/.config/lxsession/LXDE/desktop.conf
 
-/etc/init.d/lightdm start
-
 #################################################################################
 # echo "Tweake lightdm..."
 # echo 'deb http://download.opensuse.org/repositories/home:/antergos/Debian_9.0/ /' > /etc/apt/sources.list.d/home:antergos.list
