@@ -1,4 +1,7 @@
 # Dethroner
+
+[![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
 ## Install workstation on base LXDE (minimal configure) in Debian.
 
 1. Install base configuration Debian. Login as <b>root</b>.<br>
